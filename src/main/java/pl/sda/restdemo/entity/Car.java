@@ -4,12 +4,18 @@ import java.util.Objects;
 
 public class Car {
 
-    private Long id;
+    private Long id; // { get, set } car.id = 5; id = car.id
     private String brand;
     private String model;
     private String fuelKind;
     private String color;
 
+    //
+//    private String problem;
+//    public String getNoProblem() {
+//        return problem;
+//    }
+    //
     public Car() {
     }
 
